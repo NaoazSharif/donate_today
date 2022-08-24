@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.btn {
+    padding: 10px;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+section{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header_section{
+    color: white;
+    background-image: url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.money_section{
+    display: flex;   
+}
+.money{
+    height: 100px ;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.money_active{
+    border: 2px solid #FF5959;
+    background: #fff1f1;
+    color: #FF5959;
+}
+#money_input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(206, 199, 199) ;
+    border-radius: 3px;
+    color: white;
+}
+.donate_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate_item{
+    height: 350px;
+    width: 360px;
+    margin: 10px;
+    padding: 40px;
+    background: #FFF4D6;
+    border-radius: 5px;
+}
+.subcribe{
+    height: 200px;
+    width: 60%;
+    background-color:#FFF4D6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subcribe_input{
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.footer_section{
+    height: 170px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer_text{
+    color:  #FF5959;
+}
